@@ -1,0 +1,25 @@
+{
+  "name": "* In My Butt",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Inserts 'in my butt' after every web page title",
+  "background": {
+    "scripts": ["src/bg/background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "http://*/*",
+    "file://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.google.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
