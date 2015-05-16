@@ -8,12 +8,14 @@ chrome.extension.sendMessage({}, function(response) {
 		// This part of the script triggers when page is done loading
 		console.log("Hello. This message was sent from scripts/inject.js");
 		// ----------------------------------------------------------
-        /*
-        var Title = document.title
-        var NewTitle = Title + " in my butt"
-        document.title = NewTitle
-        */
-        //console.log("DONE!")
+
+                // My Goal:
+                /*
+                var Title = document.title
+                var NewTitle = Title + " in my butt"
+                document.title = NewTitle
+                */
+                //console.log("DONE!")
 	}
 	}, 10);
 });
