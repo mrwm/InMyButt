@@ -3,7 +3,7 @@
 
 	"manifest_version": 2,
 	"name": "InMyButt",
-	"version": "1.2",
+	"version": "1.0",
 	"description": "Adds the text 'in my butt' after page titles",
 	"content_scripts": 
 	[
