@@ -1,3 +1,4 @@
-#Ignore pem files
+# Ignore pem files
 *.pem
+# Ignore zip files
 *.zip
