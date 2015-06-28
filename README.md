@@ -7,7 +7,7 @@ Click [here](https://raw.githubusercontent.com/wiiliam/InMyButt/master/InMyButt.
 
 ---
 ##Installation:
-Go to `[chrome://extensions/](chrome://extensions/)` and drag the crx file onto the page to install.
+Go to `chrome://extensions/` and drag the crx file onto the page to install.
 
 ---
 ##Screenshot:
