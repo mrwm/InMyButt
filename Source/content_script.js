@@ -10,7 +10,7 @@ document.title = nTitle
 
 // Let use the konami code to trigger Gravity! :D
 cheet('up up down down left right left right b a', function () {
-alert('GREAT JOB! NOW GO EAT A PANCAKE! :D');
+//alert('GREAT JOB! NOW GO EAT A PANCAKE! :D');
 var script = document.createElement("script"); //start gravity.
 script.src="https://gravityscript.googlecode.com/svn/trunk/gravityscript.js";
 document.body.appendChild(script);void(0);
