@@ -3,4 +3,4 @@
 # Ignore zip files
 *.zip
 # Ignore swp files from nano XD
-.swp
+*.swp
