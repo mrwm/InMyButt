@@ -4,6 +4,7 @@
 //     "sample_setting": "This is how you use Store.js to remember values"
 // });
 
+/**
 
 //example of using a message handler from the inject scripts
 chrome.extension.onMessage.addListener(
@@ -11,3 +12,14 @@ chrome.extension.onMessage.addListener(
   	chrome.pageAction.show(sender.tab.id);
     sendResponse();
   });
+
+**/
+
+/**
+
+// ### Rename the page title ###
+var Title = document.title
+var nTitle = Title + " " + "in my butt"
+document.title = nTitle
+
+**/

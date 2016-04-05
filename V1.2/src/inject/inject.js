@@ -8,6 +8,12 @@ chrome.extension.sendMessage({}, function(response) {
     //console.log("Hello. This message was sent from scripts/inject.js");
     // ----------------------------------------------------------
 
+    // ### Rename the page title ###
+    var Title = document.title
+    var nTitle = Title + " " + "in my butt"
+    document.title = nTitle
+
+
   }
   }, 10);
 });
