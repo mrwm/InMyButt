@@ -1,17 +1,15 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-	"manifest_version": 2,
-	"name": "InMyButt",
-	"version": "1.1",
-	"description": "Adds the text 'in my butt' after page titles",
-	"content_scripts": 
-	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
-	]
+  "manifest_version": 2,
+  "name": "InMyButt",
+  "version": "1.1",
+  "description": "Adds the text 'in my butt' after page titles",
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
 
