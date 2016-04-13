@@ -12,15 +12,18 @@
     "bookmarks",
     "chrome://favicon/",
     "history",
-    "tabs"
+    "tabs",
   ],
+  "background": {
+    "scripts": ["background.js"],
+  },
   "content_scripts": [
     {
       "matches": [
-        "*://*/*"
+        "*://*/*",
       ],
       "js": [
-        "src/inject/inject.js"
+        "src/inject/inject.js",
       ]
     }
   ]
