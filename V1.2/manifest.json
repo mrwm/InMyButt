@@ -15,7 +15,7 @@
     "tabs",
   ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["src/background.js"],
   },
   "content_scripts": [
     {
